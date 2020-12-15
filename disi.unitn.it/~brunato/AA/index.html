@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+	<title>Algoritmi Avanzati - A.A. 2017-2018</title>
+	<meta charset="UTF-8">
+    <style>
+    th {
+        text-align: left;
+    }
+    </style>
+    </head>
+
+    <body>
+
+	<a name="top"></a>
+	<table width="100%">
+	    <tr>
+		<td width="60%">
+		    <h1 align="center">
+			145005 &mdash; Algoritmi Avanzati<br/>
+			145609 &mdash; Machine Learning for Data Science
+		    </h1>
+		    <h2 align="center">
+			Laurea Triennale in Informatica<br/>
+			Anno Accademico 2017-2018, primo semestre
+		    </h2>
+		</td>
+		<td width="*" bgcolor=#f0f0f0>
+		    <h2 align="center" style="color:#ff0000">Avvisi</h2>
+		    <ul>
+                <li>
+					<b>[2018-02-07]</b> È disponibile il <a href="index.html#test">testo della prova scritta</a> del 7 febbraio.
+    			</li>
+                <li>
+					<b>[2017-12-12]</b> Il libro ``The LION Way'' è ora scaricabile gratuitamente dalla sezione Bibliografia.
+				</li>
+			</ul>
+		</td>
+	    </tr>
+	</table>
+
+	<hr>
+
+	<table width="100%">
+	    <tr valign="top">
+		<td width="48%">
+
+		    <h3>Obiettivi del corso</h3>
+		    <p>
+			La figura del &ldquo;Data Scientist&rdquo;, sempre più
+			richiesta dalle aziende e dai centri di ricerca,
+			si occupa di dare un senso alla mole crescente di dati disponibili in ogni contesto,
+			ne costruisce modelli informatici che aiutano a comprendere meglio un fenomeno noto o
+			a scoprirne di nuovi; individua inoltre le modalità di presentazione più efficaci e
+			guida il miglioramento dei processi che analizza.
+		    </p>
+		    <p>
+			Il corso costituisce un'introduzione teorico-pratica alle tecniche di apprendimento
+			automatico (machine learning) che, a partire da esempi, generano modelli matematici
+			che possono essere generalizzati a nuovi casi per operare previsioni.
+		    </p>
+		    <p>
+			Il corso può essere seguito come modulo a sé, ma può essere utilmente completato
+			da "Intelligent Optimization for Data Science".
+		    </p>
+
+		    <h3>Programma</h3>
+		    <ul>
+			<li>Machine Learning: costruzione di modelli a partire dai dati</li>
+			<li>Apprendimento supervisionato</li>
+			<li>Apprendimento non supervisionato</li>
+			<li>Selezione delle feature</li>
+			<li>Tecniche di visualizzazione dei dati</li>
+		    </ul>
+		    Le lezioni di laboratorio prevedono la verifica e la sperimentazione
+		    degli argomenti trattati a teoria
+		    tramite la scrittura di brevi programmi di prova sotto la guida del docente.
+
+		    <h3>Prerequisiti</h3>
+		    Il corso richiede nozioni di base di Programmazione, Analisi Matematica,
+		    Algebra Lineare, Statistica.
+
+		    <a name="esami"></a>
+		    <h3>Esami</h3>
+
+		    <p>
+			L'esame consiste in una prova scritta.
+		    </p>
+		    <p>
+			La prova scritta, con carta e penna, non richiederà la scrittura di codice.
+			Conterrà alcuni esercizi affini agli esempi contenuti nella traccia
+			degli argomenti del corso, e alcune domande di teoria.
+		    </p>
+
+		    <p>
+				I prossimi appelli d'esame avranno luogo durante la sessione invernale (gennaio-febbraio 2018).
+				Le date provvisorie sono le seguenti:
+			</p>
+			<table>
+				<thead>
+					<tr>
+						<th></th>
+						<th>Data</th>
+						<th>Ore</th>
+						<th>Aule</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<th>Primo appello</th>
+						<td>Martedì 9 gennaio</td>
+						<td>9&mdash;12</td>
+						<td></td>
+					</tr>
+					<tr>
+						<th>Secondo appello</th>
+						<td>Martedì 6 febbraio</td>
+						<td>9&mdash;12</td>
+						<td></td>
+					</tr>
+				</tbody>
+			</table>
+
+			<a name="proveparziali"></a>
+		    <h4>Prove parziali</h4>
+
+			<p>
+				La prima prova parziale è accessibile a tutti gli studenti del corso. Consiste in alcune domande teoriche ed alcuni esercizi sugli argomenti svolti
+				fino alla lezione precedente.<br/>
+				È necessario iscriversi in Esse3
+				(se impossibile, comunicare l'intenzione di partecipare a <a href="https://disi.unitn.it/~brunato/AA/mauro.brunato+ProvetteAA@unitn.it">mauro.brunato+ProvetteAA@unitn.it</a>
+				la settimana precedente la prova).<br/>
+				L'esito della prova è in trentesimi.
+			</p>
+			<p>
+				La seconda prova è accessibile ai soli studenti che hanno ottenuto almento 18/30 nella prima prova. Ha una struttura simile alla prima prova e riguarda gli
+				argomenti svolti nei mesi di novembre e dicembre.
+			</p>
+			<p>
+				Il voto finale è la media aritmetica dei due esiti.
+			</p>
+
+		</td>
+
+		<td width="*">
+		</td>
+
+		<td width="48%">
+
+		    <h3>Docenti</h3>
+		    <ul>
+			<li>
+			    <a href="http://disi.unitn.it/~brunato/" target="_blank">Mauro Brunato</a>
+			    &lt;<a href="mailto:mauro.brunato@unitn.it"><tt>mauro.brunato@unitn.it</tt></a>&gt;
+			</li>
+			<li>
+			    <a href="http://lion.disi.unitn.it/~mariello/" target="_blank">Andrea Mariello</a>
+			    &lt;<a href="mailto:andrea.mariello@unitn.it"><tt>andrea.mariello@unitn.it</tt></a>&gt;
+			</li>
+		    </ul>
+
+		    <h3>Orario</h3>
+		    <p>
+				Le lezioni sono terminate.
+		    </p>
+
+		    <h3>Bibliografia</h3>
+		    <p>
+			Per approfondimenti si consigliano le seguenti risorse.
+		    </p>
+		    <h4>Libri</h4>
+		    <ul>
+			<li>
+			    <span style="font-variant:small-caps">Roberto Battiti</span>
+			    and <span style="font-variant:small-caps">Mauro Brunato</span><br/>
+			    <i><a href="http://intelligent-optimization.org/LIONbook/">The LION Way</a> &mdash;
+				Machine Learning plus Intelligent Optimization, version 3.0</i><br/>
+				LIONlab, 2017.<br/>
+				Il libro è scaricabile gratuitamente dal link sopra.
+			</li>
+		    </ul>
+
+		    <h4>Pagine e siti web</h4>
+		    <ul>
+			<li>
+			    <a href="http://en.wikipedia.org/" target="_blank">Wikipedia</a>
+			</li>
+			<li>
+			    <a href="https://docs.python.org/3/" target="_blank">Python</a>
+			</li>
+			<li>
+			    <a href="http://archive.ics.uci.edu/ml/" target="_blank">UC Irvine Machine Learning Repository</a>
+			</li>
+			<li>
+			    <a href="https://kaggle.com/" target="_blank">Kaggle.com</a>
+			</li>
+		    </ul>
+
+		    <a name="materiale"></a>
+		    <h3>Materiale del corso</h3>
+
+			<a name="dispensa"></a>
+			<h4>Dispense del corso ed esercizi</h4>
+		    <ul>
+				<li>
+					Annotazioni sugli argomenti svolti a teoria, sulle esercitazioni di laboratorio, domande di autovalutazione ed esercizi<br/>
+					[<a href="dispensa-20171218.pdf" target="_blank">versione 2017-12-18</a>]
+				</li>
+		    </ul>
+
+		    <h4>Esercitazioni di laboratorio</h4>
+		    <ul>
+					<li>
+						[2017-09-20] Prima esercitazione: lettura ed elaborazione di un semplice dataset<br/>
+						[<a href="iris.py.html" target="_blank">Script Python</a>] [<a href="https://archive.ics.uci.edu/ml/datasets/Iris" target="_blank">Iris dataset page @UCI</a>]
+					</li>
+					<li>
+						[2017-09-27] Seconda esercitazione: algoritmi di machine learning<br/>
+						[<a href="ml.py.html" target="_blank">Libreria Python</a>]
+						[<a href="iris2.py.html" target="_blank">Script Python</a>]
+						[<a href="https://archive.ics.uci.edu/ml/datasets/Iris" target="_blank">Iris dataset page @UCI</a>]
+					</li>
+					<li>
+						[2017-10-04] Terza esercitazione: regressione polinomiale e validazione di un modello<br/>
+						[<a href="ml.py.html" target="_blank">Libreria Python</a>]
+						[<a href="iris3.py.html" target="_blank">Script Python</a>]
+						[<a href="https://archive.ics.uci.edu/ml/datasets/Iris" target="_blank">Iris dataset page @UCI</a>]
+					</li>
+					<li>
+						[2017-10-18] Quarta esercitazione: regressione logistica e discesa lungo il gradiente<br/>
+						[<a href="transfusion.py.html" target="_blank">Script Python</a>] (aggiornato al 2017-10-25)
+						[<a href="https://archive.ics.uci.edu/ml/datasets/Blood+Transfusion+Service+Center" target="_blank">Transfusion dataset page @UCI</a>]
+					</li>
+					<li>
+						[2017-11-08] Quinta esercitazione, prima parte: alberi di decisione con <tt>Scikit-learn</tt><br/>
+						[<a href="adult.py.html" target="_blank">Script Python</a>]
+						[<a href="https://archive.ics.uci.edu/ml/datasets/Adult" target="_blank">Adult dataset page @UCI</a>]
+					</li>
+					<li>
+						[2017-11-15] Quinta esercitazione, seconda parte: codifica di un albero di decisione in Python<br/>
+						[<a href="tree.py.html" target="_blank">Script Python</a>]
+						[<a href="https://archive.ics.uci.edu/ml/datasets/Iris" target="_blank">Iris dataset page @UCI</a>]
+					</li>
+					<li>
+						[2017-11-29] Sesta esercitazione: prestazioni logit al variare della soglia<br/>
+						[<a href="logit-theta.py.html" target="_blank">Script Python</a>]
+						[<a href="https://archive.ics.uci.edu/ml/datasets/Blood+Transfusion+Service+Center" target="_blank">Transfusion dataset page @UCI</a>]
+					</li>
+					<li>
+						[2017-12-06] Settima esercitazione: clustering gerarchico agglomerativo<br/>
+						[<a href="clustering.py.html" target="_blank">Script Python</a>]
+						[<a href="https://archive.ics.uci.edu/ml/datasets/Iris" target="_blank">Iris dataset page @UCI</a>]
+					</li>
+				</ul>
+	
+			<a name="test"></a>
+			<h4>Prove d'esame</h4>
+		    <ul>
+				<li>
+					[2017-10-30] Prima prova parziale
+					[<a href="esame-20171030-parziale.pdf" target="_blank">Testi e traccia della soluzione</a>]
+				</li>
+				<li>
+					[2017-12-20] Seconda prova parziale
+					[<a href="esame-20171220-parziale.pdf" target="_blank">Testi e traccia della soluzione</a>]
+				</li>
+				<li>
+					[2018-01-09] Prima prova scritta (i primi tre esercizi costituiscono ilrecupero della seconda prova parziale)
+					[<a href="esame-20180109.pdf" target="_blank">Testo</a>]
+				</li>
+				<li>
+					[2018-02-06] Seconda prova scritta
+					[<a href="esame-20180206.pdf" target="_blank">Testo</a>]
+				</li>
+				</ul>
+		</td>
+	    </tr>
+	</table>
+
+	<hr>
+
+	<h2 align="center">Programma svolto</h2>
+
+	<table width="100%">
+	    <tr valign="top">
+		<td width="48%">
+		    <h3>Teoria</h3>
+		    <!--p>
+				Se non specificato altrimenti, i riferimenti sono alla versione 2 del libro
+				&ldquo;The LION Way&rdquo;. Le dispense contengono invece i riferimenti agli articoli
+				più rilevanti di Wikipedia.
+		    </p-->
+		    <ul>
+				<li>
+					<b>Presentazione del corso</b> (mercoledì 13 settembre)
+					<ul>
+					<li>Descrizione dei contenuti del corso.</li>
+					<li>Modalità d'esame.</li>
+					</ul>
+				</li>
+				<li>
+					<b>Introduzione alla Data Science</b> (mercoledì 13 settembre)
+					<ul>
+					<li>Discipline che ne fanno parte</li>
+					<li>Frequenti cause di errori metodologici nella statistica classica.</li>
+					</ul>
+					<!--Riferimenti: cap. 1, 2.-->
+				</li>
+				<li>
+					<b>Introduzione al Machine Learning</b> (lunedì 18 settembre)
+					<ul>
+					<li>Esempi di problemi</li>
+					<li>Classificazione e formalizzazione dei problemi di machine learning: apprendimento supervisionato,
+						classificazione e regressione, apprendimento non supervisionato, clustering.</li>
+					</ul>
+					<!--Riferimenti: cap. 1, 2.-->
+				</li>
+				<li>
+					<b>Regressione lineare</b> (lunedì 25 settembre, lunedì 2 ottobre)
+					<ul>
+					<li>Valutazione di un modello di regressione: il root mean square error (RMSE)</li>
+					<li>Minimizzazione del RMSE per un modello lineare: il metodo dei minimi quadrati a una e ad <i>n</i> dimensioni.</li>
+					<li>Generalizzazione della regressione lineare per funzioni di base arbitrarie.</li>
+					<li>Utilizzo delle potenze come funzioni di base: la regressione polinomiale (a una dimensione).</li>
+					</ul>
+					<!--Riferimenti: cap. 1, 2.-->
+				</li>
+				<li>
+					<b>Validazione di un modello</b> (lunedì 2 ottobre, lunedì 9 ottobre)
+					<ul>
+					<li>Valutazione di un modello di classificazione: l'accuratezza.</li>
+					<li>Matrice di confusione per due o più classi.</li>
+					<li>Definizione di &ldquo;caso positivo&rdquo;; gli indici di precisione e sensibilità; la <i>F</i><sub>1</sub> score.</li>
+					<li>La cross-validation, <i>K</i>-fold cross-validation, leave-one-out: cross-validation stratificata.</li>
+					</ul>
+					<!--Riferimenti: cap. 1, 2.-->
+				</li>
+				<li>
+					<b>Regressione logistica</b> (lunedì 9 ottobre, lunedì 16 ottobre)
+					<ul>
+						<li>Utilizzo di un modello lineare con una funzione di soglia per problemi di classificazione.</li>
+						<li>La funzione sigmoide.</li>
+						<li>Ottimizzazione iterativa: la discesa lungo il gradiente</li>
+					</ul>
+					<!--Riferimenti: cap. 1, 2.-->
+				</li>
+				<li>
+					<b>Preprocessing dei dati</b> (lunedì 16 ottobre)
+					<ul>
+						<li>Normalizzazione e standardizzazione dei dati numerici</li>
+						<li>Trasformazione di attributi categorici in numerici tramite rappresentazione unaria</li>
+					</ul>
+					<!--Riferimenti: cap. 1, 2.-->
+				</li>
+				<li>
+					<b>Alberi di decisione</b> (lunedì 6 novembre, lunedì 13 novembre)
+					<ul>
+						<li>Criteri di purezza di una distribuzione: entropia, indice di impurità di Gini</li>
+						<li>Alberi di decisione: algoritmo ID3 (standard) nel caso di attributi categorici o numerici discreti e finiti</li>
+						<li>Estensione al caso di feature continue con utilizzo di soglie.</li>
+					</ul>
+				</li>
+				<li>
+					<b>Selezione degli attributi</b> (lunedì 27 novembre)
+					<ul>
+						<li>Coefficieente di correlazione di Pearson e informazione mutua</li>
+						<li>Metodi wrapper, filter ed embedded</li>
+						<li>Strategie bottom-up, top-down e basate su ricerca locale</li>
+					</ul>
+				</li>
+				<li>
+					<b>Clustering</b> (lunedì 4 dicembre, lunedì 11 dicembre)
+					<ul>
+						<li>Definizione di clustering. Definizioni di similitudine e distanza. Coefficiente di Jaccard.</li>
+						<li>Clustering agglomerativo gerarchico (bottom-up).</li>
+						<li>Algoritmo <i>K</i>-means.</li>
+					</ul>
+				</li>
+			</ul>
+		</td>
+		<td width="*">&nbsp;</td>
+		<td width="48%">
+		    <h3>Laboratorio</h3>
+		    <ul>
+				<li>
+					<b>Caricamento e analisi di un file</b> (mercoledì 20 settembre)
+					<ul>
+					<li>Utilizzo dell'interprete Python</li>
+					<li>Caricamento di un file CSV con il modulo <tt>pandas</tt></li>
+					<li>Utilizzo &ldquo;a scatola chiusa&rdquo; di un algoritmo di machine learning</li>
+					<li>Rappresentazione grafica dei dati</li>
+					<li>Realizzazione di un semplice algoritmo di machine learning</li>
+					</ul>
+					Riferimento: dispensa, prima esercitazione.
+				</li>
+				<li>
+					<b>Implementazione di algoritmi di machine learning</b> (mercoledì 27 settembre)
+					<ul>
+					<li>Algoritmo <i>K</i>-Nearest Neighbors (KNN)</li>
+					<li>Minimi quadrati a una dimensione.</li>
+					</ul>
+					Riferimento: dispensa, seconda esercitazione.
+				</li>
+				<li>
+					<b>Regressione polinomiale e validazione di modelli</b> (mercoledì 4 ottobre)
+					<ul>
+					<li>Minimi quadrati a più dimensioni: calcolo della pseudo-inversa di una matrice rettangolare</li>
+					<li>Calcolo della regressione polinomiale a una dimensione utilizzando le potenze come funzioni di base</li>
+					<li>Analisi dell'errore di validazione al crescere del grado del polinomio</li>
+					</ul>
+					Riferimento: dispensa, terza esercitazione.
+				</li>
+				<li>
+					<b>Regressione logistica e discesa lungo il gradiente</b> (mercoledì 18 ottobre, mercoledì 25 ottobre)
+					<ul>
+					<li>Implementazione della funzione sigmoide, calcolo del gradiente del modello logit</li>
+					<li>Discesa lungo il gradiente: learning rate adattiva</li>
+					</ul>
+					Riferimento: dispensa, quarta esercitazione.
+				</li>
+				<li>
+					<b>Alberi di decisione</b> (mercoledì 8 novembre, mercoledì 15 novembre, mercoledì 22 novembre)
+					<ul>
+						<li>Addestramento di un albero di decisione <tt>Scikit-learn</tt> con diversi valori di profondità massima</li>
+						<li>Realizzazione di un albero di decisione in Python</li>
+					</ul>
+					Riferimento: dispensa, quinta esercitazione.
+				</li>
+				<li>
+					<b>Determinazione della soglia in un regressore logistico</b> (mercoledì 29 novembre)
+					<ul>
+						<li>Determinazione della matrice di confusione e degli indici di prestazione al variare della soglia in un regressore logistico.</li>
+						<li>Curva ROC.</li>
+					</ul>
+					Riferimento: dispensa, sesta esercitazione.
+				</li>
+				<li>
+					<b>Clustering agglomerativo</b> (mercoledì 6 dicembre)
+					<ul>
+						<li>Implementazione di una procedura di clustering gerarchico in Python.</li>
+						<li>Confronto con una funzione di libreria.</li>
+						<li>Utilizzo del dendrogramma per riordinare a blocchi la matrice delle distanze.</li>
+					</ul>
+					Riferimento: dispensa, settima esercitazione.
+				</li>
+			</ul>
+		</td>
+	    </tr>
+	</table>
+	<p align="right">
+	    <small>
+		Pagina mantenuta da <a href="mailto:mauro.brunato@unitn.it">Mauro Brunato</a>
+	    </small>
+	</p>
+
+    </body>
+
+</html>
